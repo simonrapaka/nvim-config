@@ -1,0 +1,8 @@
+vim.keymap.set('n', '<Leader>q', vim.cmd.quit)
+vim.keymap.set('n', '<Leader>e', vim.cmd.Ex)
+vim.keymap.set('n', '<Leader>t', '<cmd>vs +term<cr><C-w>20<i')
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n><C-w>')
+vim.keymap.set('n', '<A-h>', '<C-w>h')
+vim.keymap.set('n', '<A-j>', '<C-w>j')
+vim.keymap.set('n', '<A-k>', '<C-w>k')
+vim.keymap.set('n', '<A-l>', '<C-w>l')
